@@ -1,2 +1,23 @@
 @Library('shared-lib') _
-jenkinsForGenesis 'https://github.com/7nmanoj/shared-demo.git'
+
+def config = [name: 'Manoj', dayOfWeek: 'Wednesday']
+
+pipeline {
+
+    agent any
+
+    stages {
+
+        stage('Example') {
+
+            steps {
+
+                helloWorld(config)
+
+            }
+
+        }
+
+    }
+
+}

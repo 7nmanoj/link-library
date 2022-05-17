@@ -1,23 +1,26 @@
 @Library('shared-lib') _
 
-def config = [name: 'Manoj', dayOfWeek: 'Wednesday']
+checkout(url: 'git@github.com:7nmanoj/shared-demo.git')
 
-pipeline {
 
-    agent any
+// def config = [name: 'Manoj', dayOfWeek: 'Wednesday']
 
-    stages {
+// pipeline {
 
-        stage('Example') {
+//     agent any
 
-            steps {
+//     stages {
 
-                helloWorld(config)
+//         stage('Example') {
 
-            }
+//             steps {
 
-        }
+//                 helloWorld(config)
 
-    }
+//             }
 
-}
+//         }
+
+//     }
+
+// }

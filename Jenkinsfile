@@ -1,5 +1,5 @@
 @Library('shared-lib') _
-checkout(url: "https://github.com/7nmanoj/shared-demo.git")
+url: "https://github.com/7nmanoj/shared-demo.git"
 
 
 

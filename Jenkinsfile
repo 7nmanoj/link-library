@@ -1,6 +1,6 @@
 @Library('shared-lib') _
 
-checkout.call(
+checkout{
   branch: 'main',
   url: 'git@github.com:7nmanoj/shared-demo.git'
-){}
+}
